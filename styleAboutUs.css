@@ -58,7 +58,7 @@ h3{
 	background-color: #DACCE6;
 }
 
-.container-fluid{
+#navbar{
 	background-color: #450084;
 }
 
@@ -85,14 +85,7 @@ h3{
 
 }
 
-.opener h2{
-	font-family: "Anton", sans-serif;
-	font-size: 175%;
-	font-weight: 400;
-	font-style: normal;
-	text-align: center;
 
-}
 .opener p{
 	font-family: "Goblin One", serif;
 	font-weight: 500;
@@ -196,7 +189,7 @@ h3{
 	margin-bottom: 10px;
 }
 
-.card-title{
+h3 {
 	text-align: center;
 	font-family: "Anton", sans-serif;
 	font-size: 100%;
@@ -230,7 +223,7 @@ h3{
 .accordion-body h4{
 	text-align: center;
 	font-family: "Anton", sans-serif;
-	font-size: 75%;
+	font-size: 150%;
 	font-weight: 300;
 	font-style: normal;
 	text-align: center;
@@ -244,7 +237,7 @@ h3{
   	font-size: 50px;
 }
 
-.card-header{
+h3{
 	text-align: center;
 	font-family: "Anton", sans-serif;
 	font-size: 75%;
@@ -294,5 +287,67 @@ h3{
 	
 }
 
+p{
+	font-family: "Barlow", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+  	font-size: 15px;
+}
+
+.opener h2{
+	font-family: "Anton", sans-serif;
+	font-size: 175%;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	color: white;
+}
+
+.opener-head{
+	background-color: #DACCE6;
+}
+
+.opener p{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+.whatwedotext h2{
+	font-family: "Anton", sans-serif;
+	font-size: 325%;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	color: white;
+}
+.ourPartners h2{
+	font-family: "Anton", sans-serif;
+	font-size: 325%;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	color: white;
+}
+
+.card-title{
+	font-size: 200%;
+}
+
+#accordionFlushExample .accordion-header {
+    font-size: 1.5rem; /* Increase the font size of the accordion headers */
+}
+
+/* Target the paragraph text within the accordion body */
+#accordionFlushExample .accordion-body p {
+    font-size: 1.25rem; /* Increase the font size of the paragraphs */
+}
+
+/* Target the h4 elements within the accordion body */
+#accordionFlushExample .accordion-body h4 {
+    font-size: 1.5rem; /* Increase the font size of the h4 headings */
+}
 
 
